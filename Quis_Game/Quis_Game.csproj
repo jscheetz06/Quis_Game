@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +79,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caeser.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\country.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DC.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doggie.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ1.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rock.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tank.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usa-colored-regions-map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vender.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
